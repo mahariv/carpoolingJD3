@@ -1,0 +1,26 @@
+{
+    "carpoolingCsid2016App": {
+        "path" : {
+            "home": {
+                "title": "Paths",
+                "createLabel": "Create a new Path",
+                "createOrEditLabel": "Create or edit a Path",
+                "search": "Search for Path"
+            },
+            "created": "A new Path is created with identifier {{ param }}",
+            "updated": "A Path is updated with identifier {{ param }}",
+            "deleted": "A Path is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Path {{ id }}?"
+            },
+            "detail": {
+                "title": "Path"
+            },
+            "namePath": "NamePath",
+            "numOfDistance": "NumOfDistance",
+            "timeDuration": "TimeDuration",
+            "locationStart": "LocationStart",
+            "locationEnd": "LocationEnd"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "relationships": [
+        {
+            "relationshipName": "locationStart",
+            "otherEntityName": "location",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "nameLocation"
+        },
+        {
+            "relationshipName": "locationEnd",
+            "otherEntityName": "location",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "nameLocation"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "namePath",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "numOfDistance",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "timeDuration",
+            "fieldType": "Long"
+        }
+    ],
+    "changelogDate": "20160422094007",
+    "dto": "mapstruct",
+    "service": "serviceClass",
+    "entityTableName": "path",
+    "pagination": "pager"
+}

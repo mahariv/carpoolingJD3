@@ -1,0 +1,14 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "nameLocation",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20160422092946",
+    "dto": "mapstruct",
+    "service": "serviceClass",
+    "entityTableName": "location",
+    "pagination": "pager"
+}

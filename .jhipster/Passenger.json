@@ -1,0 +1,30 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "firstName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lastName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "age",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "phone",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "mail",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20160422093203",
+    "dto": "mapstruct",
+    "service": "serviceClass",
+    "entityTableName": "passenger",
+    "pagination": "pager"
+}

@@ -1,0 +1,26 @@
+{
+    "carpoolingCsid2016App": {
+        "passenger" : {
+            "home": {
+                "title": "Passengers",
+                "createLabel": "Create a new Passenger",
+                "createOrEditLabel": "Create or edit a Passenger",
+                "search": "Search for Passenger"
+            },
+            "created": "A new Passenger is created with identifier {{ param }}",
+            "updated": "A Passenger is updated with identifier {{ param }}",
+            "deleted": "A Passenger is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Passenger {{ id }}?"
+            },
+            "detail": {
+                "title": "Passenger"
+            },
+            "firstName": "FirstName",
+            "lastName": "LastName",
+            "age": "Age",
+            "phone": "Phone",
+            "mail": "Mail"
+        }
+    }
+}

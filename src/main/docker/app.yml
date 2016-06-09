@@ -1,0 +1,15 @@
+version: '2'
+services:
+    carpoolingcsid2016-app:
+        image: carpoolingcsid2016
+        external_links:
+            - carpoolingcsid2016-mysql:mysql
+        environment:
+            - SPRING_PROFILES_ACTIVE=prod
+            - SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/carpoolingcsid2016?useUnicode=true&characterEncoding=utf8&useSSL=false
+        ports:
+            - 8080:8080
+    carpoolingcsid2016-mysql:
+        extends:
+            file: mysql.yml
+            service: carpoolingcsid2016-mysql

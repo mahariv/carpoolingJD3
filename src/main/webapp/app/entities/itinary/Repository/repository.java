@@ -1,0 +1,4 @@
+
+
+Interface LocationRepository
+		Implements JPARepository<>{}

@@ -1,0 +1,22 @@
+{
+    "carpoolingCsid2016App": {
+        "carType" : {
+            "home": {
+                "title": "CarTypes",
+                "createLabel": "Create a new CarType",
+                "createOrEditLabel": "Create or edit a CarType",
+                "search": "Search for CarType"
+            },
+            "created": "A new CarType is created with identifier {{ param }}",
+            "updated": "A CarType is updated with identifier {{ param }}",
+            "deleted": "A CarType is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete CarType {{ id }}?"
+            },
+            "detail": {
+                "title": "CarType"
+            },
+            "nameType": "NameType"
+        }
+    }
+}

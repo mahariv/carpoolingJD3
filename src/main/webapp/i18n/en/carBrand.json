@@ -1,0 +1,22 @@
+{
+    "carpoolingCsid2016App": {
+        "carBrand" : {
+            "home": {
+                "title": "CarBrands",
+                "createLabel": "Create a new CarBrand",
+                "createOrEditLabel": "Create or edit a CarBrand",
+                "search": "Search for CarBrand"
+            },
+            "created": "A new CarBrand is created with identifier {{ param }}",
+            "updated": "A CarBrand is updated with identifier {{ param }}",
+            "deleted": "A CarBrand is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete CarBrand {{ id }}?"
+            },
+            "detail": {
+                "title": "CarBrand"
+            },
+            "nameBrand": "NameBrand"
+        }
+    }
+}

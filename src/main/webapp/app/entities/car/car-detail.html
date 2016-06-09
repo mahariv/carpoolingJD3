@@ -1,0 +1,33 @@
+
+<div>
+    <h2><span translate="carpoolingCsid2016App.car.detail.title">Car</span> {{vm.car.id}}</h2>
+    <hr>
+    <dl class="dl-horizontal">
+        <dt><span translate="carpoolingCsid2016App.car.seatCount">SeatCount</dt></dt>
+        <dd>
+            <span>{{vm.car.seatCount}}<span>
+        </dd>
+        <hr>
+        <dt><span translate="carpoolingCsid2016App.car.driver">driver</span></dt>
+        <dd>
+            <a ui-sref="driver-detail({id:vm.car.driverId})">{{vm.car.driverLastName}}</a>
+        </dd>
+        <hr>
+        <dt><span translate="carpoolingCsid2016App.car.carBrand">carBrand</span></dt>
+        <dd>
+            <a ui-sref="car-brand-detail({id:vm.car.carBrandId})">{{vm.car.carBrandNameBrand}}</a>
+        </dd>
+        <hr>
+        <dt><span translate="carpoolingCsid2016App.car.carType">carType</span></dt>
+        <dd>
+            <a ui-sref="car-type-detail({id:vm.car.carTypeId})">{{vm.car.carTypeNameType}}</a>
+        </dd>
+        <hr>
+    </dl>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

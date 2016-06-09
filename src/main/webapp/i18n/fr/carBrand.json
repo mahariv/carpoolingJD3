@@ -1,0 +1,22 @@
+{
+    "carpoolingCsid2016App": {
+        "carBrand" : {
+            "home": {
+                "title": "CarBrands",
+                "createLabel": "Créer un nouveau CarBrand",
+                "createOrEditLabel": "Créer ou éditer un CarBrand",
+                "search": "Recherche pour CarBrand"
+            },
+            "created": "Un nouveau CarBrand a été créé avec l'identifiant {{ param }}",
+            "updated": "Le CarBrand avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le CarBrand avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le CarBrand {{ id }} ?"
+            },
+            "detail": {
+                "title": "CarBrand"
+            },
+            "nameBrand": "NameBrand"
+        }
+    }
+}

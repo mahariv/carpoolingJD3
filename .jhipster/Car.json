@@ -1,0 +1,33 @@
+{
+    "relationships": [
+        {
+            "relationshipName": "driver",
+            "otherEntityName": "driver",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "lastName"
+        },
+        {
+            "relationshipName": "carBrand",
+            "otherEntityName": "carBrand",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "nameBrand"
+        },
+        {
+            "relationshipName": "carType",
+            "otherEntityName": "carType",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "nameType"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "seatCount",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20160422094339",
+    "dto": "mapstruct",
+    "service": "serviceClass",
+    "entityTableName": "car",
+    "pagination": "pager"
+}

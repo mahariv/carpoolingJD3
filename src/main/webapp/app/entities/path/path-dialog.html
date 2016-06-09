@@ -1,0 +1,56 @@
+
+<form name="editForm" role="form" novalidate ng-submit="vm.save()">
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
+                ng-click="vm.clear()">&times;</button>
+        <h4 class="modal-title" id="myPathLabel" translate="carpoolingCsid2016App.path.home.createOrEditLabel">Create or edit a Path</h4>
+    </div>
+    <div class="modal-body">
+        <jhi-alert-error></jhi-alert-error>
+        <div class="form-group">
+            <label for="id" translate="global.field.id">ID</label>
+            <input type="text" class="form-control" id="id" name="id"
+                    ng-model="vm.path.id" readonly />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="carpoolingCsid2016App.path.namePath" for="field_namePath">NamePath</label>
+            <input type="text" class="form-control" name="namePath" id="field_namePath"
+                    ng-model="vm.path.namePath"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="carpoolingCsid2016App.path.numOfDistance" for="field_numOfDistance">NumOfDistance</label>
+            <input type="number" class="form-control" name="numOfDistance" id="field_numOfDistance"
+                    ng-model="vm.path.numOfDistance"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="carpoolingCsid2016App.path.timeDuration" for="field_timeDuration">TimeDuration</label>
+            <input type="number" class="form-control" name="timeDuration" id="field_timeDuration"
+                    ng-model="vm.path.timeDuration"
+                     />
+        </div>
+
+        <div class="form-group">
+            <label translate="carpoolingCsid2016App.path.locationStart" for="field_locationStart">locationStart</label>
+            <select class="form-control" id="field_locationStart" name="locationStart" ng-model="vm.path.locationStartId" ng-options="location.id as location.nameLocation for location in vm.locations">
+                <option value=""></option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label translate="carpoolingCsid2016App.path.locationEnd" for="field_locationEnd">locationEnd</label>
+            <select class="form-control" id="field_locationEnd" name="locationEnd" ng-model="vm.path.locationEndId" ng-options="location.id as location.nameLocation for location in vm.locations">
+                <option value=""></option>
+            </select>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="vm.clear()">
+            <span class="glyphicon glyphicon-ban-circle"></span>&nbsp;<span translate="entity.action.cancel">Cancel</span>
+        </button>
+        <button type="submit" ng-disabled="editForm.$invalid || isSaving" class="btn btn-primary">
+            <span class="glyphicon glyphicon-save"></span>&nbsp;<span translate="entity.action.save">Save</span>
+        </button>
+    </div>
+</form>

@@ -1,0 +1,22 @@
+{
+    "carpoolingCsid2016App": {
+        "carType" : {
+            "home": {
+                "title": "CarTypes",
+                "createLabel": "Créer un nouveau CarType",
+                "createOrEditLabel": "Créer ou éditer un CarType",
+                "search": "Recherche pour CarType"
+            },
+            "created": "Un nouveau CarType a été créé avec l'identifiant {{ param }}",
+            "updated": "Le CarType avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le CarType avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le CarType {{ id }} ?"
+            },
+            "detail": {
+                "title": "CarType"
+            },
+            "nameType": "NameType"
+        }
+    }
+}
